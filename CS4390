@@ -1,0 +1,65 @@
+Source,C:\Users\Ignas\Downloads\zose\zose\CS4390.sch
+Kicad Rev,Eeschema 4.0.7
+Generated Date,2018-03-16 20:29:42
+
+Title,Zose analog output board
+Company,Not Set
+Revision,2
+Date Issue,2018-03-15
+Comment,+22dBU
+Comment,Quad analog output 
+
+Reference,Value,Library,Library Ref
+U2,OPA2604,CS4390-cache,Opamp_Dual_Generic
+C2,10uF,device,CP1
+C1,0.1uF,device,C
+C3,1nF,device,C
+C5,1nF,device,C
+C7,220pF,device,C
+C8,220pF,device,C
+C11,0.1uF,device,C
+R6,13.7k,device,R
+R11,3,32k,device,R
+R10,3.32k,device,R
+R7,13.7k,device,R
+C4,1nF,device,C
+C6,1nF,device,C
+C9,220pF,device,C
+C10,220pF,device,C
+R8,13.7k,device,R
+R13,3.32k,device,R
+R12,3.32k,device,R
+R9,13.7kR,device,R
+U4,DRV134,CS4390-cache,DRV134
+C16,1uF,device,C
+C17,1uF,device,C
+C13,47uF,device,CP1
+U3,DRV134,CS4390-cache,DRV134
+C14,1uF,device,C
+C15,1uF,device,C
+C18,220uF,device,C
+C19,220uF,device,C
+U1,CS4390,CS4390-cache,CS4390
+R14,100k,device,R
+R15,100k,device,R
+D1,D,device,D
+D3,D,device,D
+C20,220uF,device,C
+C21,220uF,device,C
+R16,100k,device,R
+R17,100k,device,R
+D2,D,device,D
+D4,D,device,D
+C12,47uF,device,CP1
+R3,13.7k,device,R
+R2,13.7k,device,R
+R4,13.7k,device,R
+R5,13.7k,device,R
+R1,1k,device,R
+J1,Power In,conn,Conn_01x04
+FL3,EMI_Filter_LCL,device,EMI_Filter_LCL
+FL4,EMI_Filter_LCL,device,EMI_Filter_LCL
+FL1,EMI_Filter_LCL,device,EMI_Filter_LCL
+FL2,EMI_Filter_LCL,device,EMI_Filter_LCL
+J2,Conn_01x05,conn,Conn_01x05
+J3,Conn_01x04,conn,Conn_01x04
