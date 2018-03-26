@@ -1,65 +1,94 @@
-Source,C:\Users\Ignas\Downloads\zose\zose\CS4390.sch
-Kicad Rev,Eeschema 4.0.7
-Generated Date,2018-03-16 20:29:42
+"Source:","C:\Users\12266\Documents\zose-line-out\CS4390.sch"
+"Date:","2018-03-26 17:12:56"
+"Tool:","Eeschema 4.0.7"
+"Generator:","C:/Program Files/KiCad/bin/scripting/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","56"
 
-Title,Zose analog output board
-Company,Not Set
-Revision,2
-Date Issue,2018-03-15
-Comment,+22dBU
-Comment,Quad analog output 
+"Individual Components:"
 
-Reference,Value,Library,Library Ref
-U2,OPA2604,CS4390-cache,Opamp_Dual_Generic
-C2,10uF,device,CP1
-C1,0.1uF,device,C
-C3,1nF,device,C
-C5,1nF,device,C
-C7,220pF,device,C
-C8,220pF,device,C
-C11,0.1uF,device,C
-R6,13.7k,device,R
-R11,3,32k,device,R
-R10,3.32k,device,R
-R7,13.7k,device,R
-C4,1nF,device,C
-C6,1nF,device,C
-C9,220pF,device,C
-C10,220pF,device,C
-R8,13.7k,device,R
-R13,3.32k,device,R
-R12,3.32k,device,R
-R9,13.7kR,device,R
-U4,DRV134,CS4390-cache,DRV134
-C16,1uF,device,C
-C17,1uF,device,C
-C13,47uF,device,CP1
-U3,DRV134,CS4390-cache,DRV134
-C14,1uF,device,C
-C15,1uF,device,C
-C18,220uF,device,C
-C19,220uF,device,C
-U1,CS4390,CS4390-cache,CS4390
-R14,100k,device,R
-R15,100k,device,R
-D1,D,device,D
-D3,D,device,D
-C20,220uF,device,C
-C21,220uF,device,C
-R16,100k,device,R
-R17,100k,device,R
-D2,D,device,D
-D4,D,device,D
-C12,47uF,device,CP1
-R3,13.7k,device,R
-R2,13.7k,device,R
-R4,13.7k,device,R
-R5,13.7k,device,R
-R1,1k,device,R
-J1,Power In,conn,Conn_01x04
-FL3,EMI_Filter_LCL,device,EMI_Filter_LCL
-FL4,EMI_Filter_LCL,device,EMI_Filter_LCL
-FL1,EMI_Filter_LCL,device,EMI_Filter_LCL
-FL2,EMI_Filter_LCL,device,EMI_Filter_LCL
-J2,Conn_01x05,conn,Conn_01x05
-J3,Conn_01x04,conn,Conn_01x04
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","0.1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C2","0.1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C3","10uF","device:CP1","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C4","1nF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C5","1nF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C6","1nF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C7","1nF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C8","220pF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C9","220pF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C10","220pF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C11","220pF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C12","47uF","device:CP1","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C13","47uF","device:CP1","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C14","1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C15","1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C16","1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C17","1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"","","C18","220uF","device:C","Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm",""
+"","","C19","220uF","device:C","Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm",""
+"","","C20","220uF","device:C","Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm",""
+"","","C21","220uF","device:C","Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm",""
+"","","D1","D","device:D","Diodes_THT:D_A-405_P10.16mm_Horizontal",""
+"","","D2","D","device:D","Diodes_THT:D_A-405_P10.16mm_Horizontal",""
+"","","D3","D","device:D","Diodes_THT:D_A-405_P10.16mm_Horizontal",""
+"","","D4","D","device:D","Diodes_THT:D_A-405_P10.16mm_Horizontal",""
+"","","FL1","EMI_Filter_LCL","device:EMI_Filter_LCL","LEDs:LED_Rectangular_W5.0mm_H2.0mm-3pins",""
+"","","FL2","EMI_Filter_LCL","device:EMI_Filter_LCL","LEDs:LED_Rectangular_W5.0mm_H2.0mm-3pins",""
+"","","FL3","EMI_Filter_LCL","device:EMI_Filter_LCL","LEDs:LED_Rectangular_W5.0mm_H2.0mm-3pins",""
+"","","FL4","EMI_Filter_LCL","device:EMI_Filter_LCL","LEDs:LED_Rectangular_W5.0mm_H2.0mm-3pins",""
+"","","J1","GS3","conn:GS3","Connectors:GS3",""
+"","","J2","GS3","conn:GS3","Connectors:GS3",""
+"","","J3","Data In","conn:Conn_01x04","Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm",""
+"","","J4","Power In","conn:Conn_01x04","",""
+"","","J5","Left","conn:Screw_Terminal_01x03","",""
+"","","J6","Right","conn:Screw_Terminal_01x03","",""
+"","","R1","1k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R2","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R3","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R4","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R5","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R6","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R7","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R8","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R9","13.7kR","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R10","3.32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R11","3,32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R12","3.32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R13","3.32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R14","100k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R15","100k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R16","100k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","R17","100k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"","","U1","OPA2604","device:Opamp_Dual_Generic","Housings_DIP:DIP-8_W7.62mm_LongPads",""
+"","","U2","CS4390","adc-dac:CS4390","Housings_DIP:DIP-20_W7.62mm_LongPads",""
+"","","U3","DRV134","linear:DRV134","Housings_DIP:DIP-8_W7.62mm_Socket_LongPads",""
+"","","U4","DRV134","linear:DRV134","Housings_DIP:DIP-8_W7.62mm_Socket_LongPads",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","2","C1, C2","0.1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"2","1","C3","10uF","device:CP1","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"3","4","C4, C5, C6, C7","1nF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"4","4","C8, C9, C10, C11","220pF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"5","2","C12, C13","47uF","device:CP1","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"6","4","C14, C15, C16, C17","1uF","device:C","Capacitors_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+"7","4","C18, C19, C20, C21","220uF","device:C","Capacitors_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm",""
+"8","4","D1, D2, D3, D4","D","device:D","Diodes_THT:D_A-405_P10.16mm_Horizontal",""
+"9","4","FL1, FL2, FL3, FL4","EMI_Filter_LCL","device:EMI_Filter_LCL","LEDs:LED_Rectangular_W5.0mm_H2.0mm-3pins",""
+"10","2","J1, J2","GS3","conn:GS3","Connectors:GS3",""
+"11","1","J3","Data In","conn:Conn_01x04","Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm",""
+"12","1","J4","Power In","conn:Conn_01x04","",""
+"13","1","J5","Left","conn:Screw_Terminal_01x03","",""
+"14","1","J6","Right","conn:Screw_Terminal_01x03","",""
+"15","1","R1","1k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"16","7","R2, R3, R4, R5, R6, R7, R8","13.7k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"17","1","R9","13.7kR","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"18","3","R10, R12, R13","3.32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"19","1","R11","3,32k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"20","4","R14, R15, R16, R17","100k","device:R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"21","1","U1","OPA2604","device:Opamp_Dual_Generic","Housings_DIP:DIP-8_W7.62mm_LongPads",""
+"22","1","U2","CS4390","adc-dac:CS4390","Housings_DIP:DIP-20_W7.62mm_LongPads",""
+"23","2","U3, U4","DRV134","linear:DRV134","Housings_DIP:DIP-8_W7.62mm_Socket_LongPads",""
