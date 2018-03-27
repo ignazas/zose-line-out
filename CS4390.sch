@@ -991,8 +991,6 @@ F 3 "" H 1900 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 3700 2300 4800
-Wire Wire Line
 	2300 4100 2650 4100
 Connection ~ 2300 4100
 Wire Wire Line
@@ -1204,7 +1202,7 @@ U 1 1 5AB98984
 P 10500 2000
 F 0 "J5" H 10500 2200 50  0000 C CNN
 F 1 "Left" H 10500 1800 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-3_P5.00mm" H 10500 2000 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5035_03x2.54mm_Straight" H 10500 2000 50  0001 C CNN
 F 3 "" H 10500 2000 50  0001 C CNN
 	1    10500 2000
 	1    0    0    -1  
@@ -1215,7 +1213,7 @@ U 1 1 5AB98B9F
 P 10500 3950
 F 0 "J6" H 10500 4150 50  0000 C CNN
 F 1 "Right" H 10500 3750 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-3_P5.00mm" H 10500 3950 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5035_03x2.54mm_Straight" H 10500 3950 50  0001 C CNN
 F 3 "" H 10500 3950 50  0001 C CNN
 	1    10500 3950
 	1    0    0    -1  
@@ -1252,7 +1250,6 @@ Wire Wire Line
 Connection ~ 2050 4650
 Wire Wire Line
 	1350 4800 1350 4600
-Connection ~ 2300 4800
 Wire Wire Line
 	1850 4600 1850 4800
 Connection ~ 1850 4800
@@ -1387,4 +1384,7 @@ Wire Notes Line
 	1800 1800 1450 1800
 Wire Notes Line
 	1450 1800 1450 1100
+Wire Wire Line
+	2300 3700 2300 4800
+Connection ~ 2300 4800
 $EndSCHEMATC
